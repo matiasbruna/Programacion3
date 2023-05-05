@@ -70,5 +70,26 @@ namespace Clase7EjercicioCrud
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dgvMostrar.DataSource = null;
+
+            try
+            {
+                Conectar();
+                string query = "SELECT * FROM Clientes";
+                SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                dgvMostrar.DataSource = dt;
+
+            }catch(Exception ex)
+            {
+                MessageBox.Show("error al mostrar datos "+ ex.Message);
+            }
+            finally { Desconectar(); }
+        }
     }
 }

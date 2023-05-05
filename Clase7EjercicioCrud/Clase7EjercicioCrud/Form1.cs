@@ -125,7 +125,7 @@ namespace Clase7EjercicioCrud
                 }
                 else
                 {
-                    MessageBox.Show("no se encontro el nombre" + txtId.Text);
+                    MessageBox.Show("no se encontro el ID: " + txtId.Text);
                 }
             }
             catch (Exception ex)

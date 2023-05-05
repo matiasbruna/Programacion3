@@ -36,10 +36,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtDomicilio = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -118,33 +118,33 @@
             this.txtNombre.Size = new System.Drawing.Size(170, 20);
             this.txtNombre.TabIndex = 7;
             // 
-            // textBox3
+            // txtApellido
             // 
-            this.textBox3.Location = new System.Drawing.Point(99, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(170, 20);
-            this.textBox3.TabIndex = 8;
+            this.txtApellido.Location = new System.Drawing.Point(99, 98);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(170, 20);
+            this.txtApellido.TabIndex = 8;
             // 
-            // textBox4
+            // txtDomicilio
             // 
-            this.textBox4.Location = new System.Drawing.Point(99, 124);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(170, 20);
-            this.textBox4.TabIndex = 9;
+            this.txtDomicilio.Location = new System.Drawing.Point(99, 124);
+            this.txtDomicilio.Name = "txtDomicilio";
+            this.txtDomicilio.Size = new System.Drawing.Size(170, 20);
+            this.txtDomicilio.TabIndex = 9;
             // 
-            // textBox5
+            // txtTelefono
             // 
-            this.textBox5.Location = new System.Drawing.Point(99, 150);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(170, 20);
-            this.textBox5.TabIndex = 10;
+            this.txtTelefono.Location = new System.Drawing.Point(99, 150);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(170, 20);
+            this.txtTelefono.TabIndex = 10;
             // 
-            // textBox6
+            // txtEmail
             // 
-            this.textBox6.Location = new System.Drawing.Point(99, 176);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(170, 20);
-            this.textBox6.TabIndex = 11;
+            this.txtEmail.Location = new System.Drawing.Point(99, 176);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(170, 20);
+            this.txtEmail.TabIndex = 11;
             // 
             // dgvMostrar
             // 
@@ -189,6 +189,7 @@
             this.btnAgregar.TabIndex = 16;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnVaciar
             // 
@@ -221,10 +222,10 @@
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dgvMostrar);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtDomicilio);
+            this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label6);
@@ -252,10 +253,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtDomicilio;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.DataGridView dgvMostrar;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnGuardar;

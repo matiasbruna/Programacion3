@@ -1,0 +1,11 @@
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\bin\Debug\Clase7EjercicioCrud.exe.config
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\bin\Debug\Clase7EjercicioCrud.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\bin\Debug\Clase7EjercicioCrud.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.csproj.AssemblyReference.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.Clientes.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.Properties.Resources.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.csproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.csproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\Clase7EjercicioCrud\Clase7EjercicioCrud\obj\Debug\Clase7EjercicioCrud.pdb

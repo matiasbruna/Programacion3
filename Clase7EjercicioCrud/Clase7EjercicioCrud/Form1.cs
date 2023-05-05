@@ -29,7 +29,7 @@ namespace Clase7EjercicioCrud
                 conn.Open();
             }catch(Exception ex)
             {
-                MessageBox.Show("Error en la coneccion.\n" + ex);
+                MessageBox.Show("Error en la coneccion.\n" + ex.Message);
             }
             finally { conn.Close(); }
         }
@@ -41,13 +41,34 @@ namespace Clase7EjercicioCrud
         private void Form1_Load(object sender, EventArgs e)
         {
 
-
+         
 
         }
 
         private void btnVaciar_Click(object sender, EventArgs e)
         {
             dgvMostrar.DataSource = "";
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Conectar();
+                string query = $"INSERT INTO Clientes(nombre, apellido, domicilio, telefono, email)" +
+                    $"VALUES('{txtNombre.Text}','{txtApellido.Text}','{txtDomicilio.Text}','{txtTelefono.Text}','{txtEmail.Text}')";
+
+                SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Error al cargar el nuevo cliente "+ ex.Message);
+            }
+            finally { Desconectar(); }
+
+
         }
     }
 }

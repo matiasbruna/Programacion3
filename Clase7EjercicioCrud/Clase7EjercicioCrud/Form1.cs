@@ -70,6 +70,7 @@ namespace Clase7EjercicioCrud
                 SqlDataAdapter da = new SqlDataAdapter(query, conn);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
+                LimpiarCampos();
 
             }catch(Exception ex)
             {
@@ -135,6 +136,27 @@ namespace Clase7EjercicioCrud
             finally { Desconectar(); }
 
 
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Conectar();
+
+                string query = $"DELETE FROM Clientes WHERE id = {Convert.ToInt32(txtId.Text)}";
+
+                SqlDataAdapter da = new SqlDataAdapter(query, conn); 
+                DataTable dt = new DataTable() ;
+                da.Fill(dt);
+
+                LimpiarCampos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"No se pudo borrar el id: {txtId.Text}" + ex.Message);
+            }
+            finally { Desconectar(); }
         }
     }
 }

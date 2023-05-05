@@ -1,0 +1,11 @@
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\bin\Debug\Alumnos.exe.config
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\bin\Debug\Alumnos.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\bin\Debug\Alumnos.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.csproj.AssemblyReference.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.Form1.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.Properties.Resources.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.csproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.csproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\Alumnos\Alumnos\obj\Debug\Alumnos.pdb

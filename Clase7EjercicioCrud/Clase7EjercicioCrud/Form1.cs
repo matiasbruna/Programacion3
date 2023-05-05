@@ -37,6 +37,15 @@ namespace Clase7EjercicioCrud
         {
             conn.Close();
         }
+        public void LimpiarCampos()
+        {
+            
+            txtNombre.Text= string.Empty;
+            txtApellido.Text= string.Empty;
+            txtDomicilio.Text= string.Empty;    
+            txtTelefono.Text= string.Empty;
+            txtEmail.Text= string.Empty;
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -90,6 +99,42 @@ namespace Clase7EjercicioCrud
                 MessageBox.Show("error al mostrar datos "+ ex.Message);
             }
             finally { Desconectar(); }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                Conectar();
+                LimpiarCampos();
+
+                string query = $"SELECT * FROM Clientes WHERE id = {Convert.ToInt32(txtId.Text)}";
+
+                SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                if (dt.Rows.Count == 1)
+                {
+                    txtNombre.Text = dt.Rows[0].Field<string>("nombre");
+                    txtApellido.Text = dt.Rows[0].Field<string>("apellido");
+                    txtDomicilio.Text = dt.Rows[0].Field<string>("domicilio");
+                    txtTelefono.Text = dt.Rows[0].Field<string>("telefono");
+                    txtEmail.Text = dt.Rows[0].Field<string>("email");
+                }
+                else
+                {
+                    MessageBox.Show("no se encontro el nombre" + txtId.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pueden recuperar datos" + ex.Message);
+            }
+            finally { Desconectar(); }
+
+
         }
     }
 }

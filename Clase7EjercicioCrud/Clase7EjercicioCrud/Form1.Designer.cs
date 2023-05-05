@@ -1,6 +1,6 @@
 ﻿namespace Clase7EjercicioCrud
 {
-    partial class Form1
+    partial class Clientes
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -209,7 +209,7 @@
             this.button1.Text = "Mostrar Clientes";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -233,7 +233,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Clientes";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).EndInit();

@@ -11,13 +11,31 @@ using System.Windows.Forms;
 
 namespace Clase7EjercicioCrud
 {
-    public partial class Form1 : Form
+    public partial class Clientes : Form
     {
         SqlConnection conn = new SqlConnection();
 
-        public Form1()
+        public Clientes()
         {
             InitializeComponent();
+        }
+
+
+        public void Conectar()
+        {
+            conn.ConnectionString = "Data Source=DESKTOP-NE83MDA;Initial Catalog=Clase7;Integrated Security=True";
+            try
+            {
+                conn.Open();
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Error en la coneccion.\n" + ex);
+            }
+            finally { conn.Close(); }
+        }
+        public void Desconectar()
+        {
+            conn.Close();
         }
 
         private void Form1_Load(object sender, EventArgs e)

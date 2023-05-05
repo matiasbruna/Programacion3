@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,23 @@ namespace Clase7EjercicioCrud
 {
     public partial class Form1 : Form
     {
+        SqlConnection conn = new SqlConnection();
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void btnVaciar_Click(object sender, EventArgs e)
+        {
+            dgvMostrar.DataSource = "";
         }
     }
 }

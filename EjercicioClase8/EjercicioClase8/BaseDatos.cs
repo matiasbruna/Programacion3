@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace EjercicioClase8
 {
-    internal class BaseDatos
+    static internal class BaseDatos
     {
         static SqlConnection connection = new SqlConnection();
         static public bool Conectar()

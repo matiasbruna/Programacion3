@@ -27,5 +27,15 @@ namespace EjercicioClase8
             Descripcion = pDescripcion;
         }
 
+        public bool Nuevo()
+        {
+            bool correcto;
+            string query = $"INSERT INTO Marcas(descripcion) VALUES ('{Descripcion}')";
+
+            correcto = BaseDatos.EjecutarConsulta(query);
+
+            return correcto;
+        }
+
     }
 }

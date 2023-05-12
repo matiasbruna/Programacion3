@@ -85,7 +85,18 @@ namespace EjercicioClase8
 
             return dt; //retorno la lo que hay en el DataTable al form.
         }
+        static public DataTable BuscarPorMarca(int idMarcaBuscada)
+        {
+            DataTable dt = new DataTable();
+
+            string query = $"SELECT * FROM Productos WHERE idMarcas = {idMarcaBuscada}";
+
+            dt = BaseDatos.Buscar(query);  //le paso la consulta y guardo en la variable DataTable
+
+            return dt; //retorno la lo que hay en el DataTable al form.
+        }
+
 
     }
-    
+
 }

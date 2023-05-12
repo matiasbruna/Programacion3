@@ -96,6 +96,7 @@
             this.btnBuscarPorMarca.TabIndex = 1;
             this.btnBuscarPorMarca.Text = "Buscar";
             this.btnBuscarPorMarca.UseVisualStyleBackColor = true;
+            this.btnBuscarPorMarca.Click += new System.EventHandler(this.btnBuscarPorMarca_Click);
             // 
             // txtBuscarPorMarca
             // 

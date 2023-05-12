@@ -61,5 +61,47 @@ namespace EjercicioClase8
                 LlenarGrilla(Producto.BuscarPorId(idBuscado));
             }
         }
+
+        private void btnBuscarPorMarca_Click(object sender, EventArgs e)
+        {
+            string marca;
+           
+            if(txtBuscarPorMarca.Text != "")
+            {
+                marca = txtBuscarPorMarca.Text.Trim();
+                
+                string  idMarca = "";
+              
+                DataTable dt = new DataTable();
+                dt = Marca.BuscarTodo(); //lleno el dt con todas las marcas.
+              
+                for(int i = 0; i < dt.Rows.Count; i++)
+                {
+                   
+                    if (marca == dt.Rows[i][1].ToString().Trim()) //valido si la marca encontrada en el dt es igual al del txt..
+                    {
+                        
+                        idMarca = dt.Rows[i][0].ToString();
+                        break; // Salimos del bucle si encontramos una coincidencia
+                    }
+                }
+                if (idMarca != "")
+                {
+                    LlenarGrilla(Producto.BuscarPorMarca(int.Parse(idMarca)));
+                }
+                else
+                {
+                    MessageBox.Show("No Se encuentra la marca solicitada.");
+                    dgvProductos.DataSource = null;
+                }
+
+                
+            }
+            else
+            {
+                MessageBox.Show("el campo Marca no debe estar vacio.");
+            }
+
+        }
     }
 }

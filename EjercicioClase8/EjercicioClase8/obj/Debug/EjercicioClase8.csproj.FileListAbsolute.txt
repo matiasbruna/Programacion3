@@ -1,0 +1,12 @@
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\bin\Debug\EjercicioClase8.exe.config
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\bin\Debug\EjercicioClase8.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\bin\Debug\EjercicioClase8.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.csproj.AssemblyReference.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.frmProductos.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.Properties.Resources.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.csproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.csproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\EjercicioClase8\EjercicioClase8\obj\Debug\EjercicioClase8.frmNuevoProducto.resources

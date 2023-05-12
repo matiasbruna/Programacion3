@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -103,5 +104,24 @@ namespace EjercicioClase8
             }
 
         }
+
+        private void btnBuscarPorDescripcion_Click(object sender, EventArgs e)
+        {
+            if(txtBuscarPorDescripcion.Text != "")
+            {
+                string descripcion = txtBuscarPorDescripcion.Text.Trim();
+
+                LlenarGrilla(Producto.BuscarPorDescripcion(descripcion));
+
+            }
+            else
+            {
+                MessageBox.Show("el campo Descripcioon no debe estar vacio.");
+            }
+
+
+        }
+         
+        
     }
 }

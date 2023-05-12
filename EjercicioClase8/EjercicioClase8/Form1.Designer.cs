@@ -124,6 +124,7 @@
             this.btnBuscarPorDescripcion.TabIndex = 1;
             this.btnBuscarPorDescripcion.Text = "Buscar";
             this.btnBuscarPorDescripcion.UseVisualStyleBackColor = true;
+            this.btnBuscarPorDescripcion.Click += new System.EventHandler(this.btnBuscarPorDescripcion_Click);
             // 
             // txtBuscarPorDescripcion
             // 

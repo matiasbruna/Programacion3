@@ -91,11 +91,20 @@ namespace EjercicioClase8
 
             string query = $"SELECT * FROM Productos WHERE idMarcas = {idMarcaBuscada}";
 
-            dt = BaseDatos.Buscar(query);  //le paso la consulta y guardo en la variable DataTable
+            dt = BaseDatos.Buscar(query);  
 
-            return dt; //retorno la lo que hay en el DataTable al form.
+            return dt; 
         }
+        static public DataTable BuscarPorDescripcion(string descripcion)
+        {
+            DataTable dt = new DataTable();
 
+            string query = $"SELECT * FROM Productos WHERE descripcion LIKE '%{descripcion}%'";
+
+            dt = BaseDatos.Buscar(query);  
+
+            return dt;
+        }
 
     }
 

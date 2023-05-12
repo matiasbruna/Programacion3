@@ -83,6 +83,7 @@
             this.cbMarca.Name = "cbMarca";
             this.cbMarca.Size = new System.Drawing.Size(121, 21);
             this.cbMarca.TabIndex = 4;
+            this.cbMarca.SelectedIndexChanged += new System.EventHandler(this.cbMarca_SelectedIndexChanged);
             // 
             // txtDescripcion
             // 
@@ -113,6 +114,7 @@
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
@@ -141,6 +143,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmNuevoProducto";
             this.Text = "Nuevo Producto";
+            this.Load += new System.EventHandler(this.frmNuevoProducto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

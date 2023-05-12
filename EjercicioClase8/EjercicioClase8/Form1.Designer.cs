@@ -75,6 +75,7 @@
             this.btnBuscarPorId.TabIndex = 1;
             this.btnBuscarPorId.Text = "Buscar";
             this.btnBuscarPorId.UseVisualStyleBackColor = true;
+            this.btnBuscarPorId.Click += new System.EventHandler(this.btnBuscarPorId_Click);
             // 
             // bgMarcas
             // 
@@ -138,6 +139,7 @@
             this.btnBuscarTodos.TabIndex = 3;
             this.btnBuscarTodos.Text = "Buscar Todos";
             this.btnBuscarTodos.UseVisualStyleBackColor = true;
+            this.btnBuscarTodos.Click += new System.EventHandler(this.btnBuscarTodos_Click);
             // 
             // dgvProductos
             // 

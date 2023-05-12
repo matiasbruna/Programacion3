@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,13 +57,34 @@ namespace EjercicioClase8
         {
             bool correcto;
 
-            string query = $"INSERT INTO Productos(idMarca, descripcion, precioCompra, precioVenta) VALUES({IdMarca},'{Descripcion}',{PrecioCompra},{PrecioVenta})";
+            string query = $"INSERT INTO Productos(idMarcas, descripcion, precioCompra, precioVenta) VALUES({IdMarca},'{Descripcion}',{PrecioCompra},{PrecioVenta})";
 
             correcto = BaseDatos.EjecutarConsulta(query);
 
             return correcto;
         }
 
+        static public DataTable BuscarTodo()
+        {
+            DataTable dt = new DataTable();
+
+            string query = "SELECT * FROM Productos";
+
+            dt = BaseDatos.Buscar(query);  //le paso la consulta y guardo en la variable DataTable
+
+            return dt; //retorno la lo que hay en el DataTable al form.
+        }
+
+        static public DataTable BuscarPorId (int idBuscado)
+        {
+            DataTable dt = new DataTable();
+
+            string query = $"SELECT * FROM Productos WHERE ID = {idBuscado}";
+
+            dt = BaseDatos.Buscar(query);  //le paso la consulta y guardo en la variable DataTable
+
+            return dt; //retorno la lo que hay en el DataTable al form.
+        }
 
     }
     

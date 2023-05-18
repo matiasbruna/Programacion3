@@ -95,6 +95,7 @@ namespace EjercicioClase8
 
             return dt; 
         }
+
         static public DataTable BuscarPorDescripcion(string descripcion)
         {
             DataTable dt = new DataTable();
@@ -105,7 +106,15 @@ namespace EjercicioClase8
 
             return dt;
         }
+        static public bool Eliminar( int idSeleccionado)
+        {
+            bool correcto;
 
+            string query = $"DELETE FROM productos WHERE id = {idSeleccionado}";
+            correcto = BaseDatos.EjecutarConsulta(query);
+            return correcto;
+        }
+   
     }
 
 }

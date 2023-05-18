@@ -121,7 +121,25 @@ namespace EjercicioClase8
 
 
         }
-         
-        
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if(dgvProductos.SelectedRows.Count > 0)
+            {
+                int id;
+                id = Convert.ToInt32(dgvProductos.CurrentRow.Cells[0].Value);
+                DialogResult Borra = MessageBox.Show("Estas seguro de eliminar el producto?", "Advertencia", MessageBoxButtons.YesNo);
+                if (Borra == DialogResult.Yes)
+                {
+                    Producto.Eliminar(id);
+                    //le paso por parametros el metodo buscarTodo()  de la clase producto.
+                    LlenarGrilla(Producto.BuscarTodo());
+                }
+            }
+            else
+            {
+                MessageBox.Show("debe seleccionar solo una fila ");
+            }
+        }
     }
 }

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.gbId = new System.Windows.Forms.GroupBox();
-            this.txtBuscarPorId = new System.Windows.Forms.TextBox();
             this.btnBuscarPorId = new System.Windows.Forms.Button();
+            this.txtBuscarPorId = new System.Windows.Forms.TextBox();
             this.bgMarcas = new System.Windows.Forms.GroupBox();
             this.btnBuscarPorMarca = new System.Windows.Forms.Button();
             this.txtBuscarPorMarca = new System.Windows.Forms.TextBox();
@@ -60,13 +60,6 @@
             this.gbId.TabStop = false;
             this.gbId.Text = "Buscar por Id";
             // 
-            // txtBuscarPorId
-            // 
-            this.txtBuscarPorId.Location = new System.Drawing.Point(6, 19);
-            this.txtBuscarPorId.Name = "txtBuscarPorId";
-            this.txtBuscarPorId.Size = new System.Drawing.Size(100, 20);
-            this.txtBuscarPorId.TabIndex = 0;
-            // 
             // btnBuscarPorId
             // 
             this.btnBuscarPorId.Location = new System.Drawing.Point(112, 19);
@@ -76,6 +69,13 @@
             this.btnBuscarPorId.Text = "Buscar";
             this.btnBuscarPorId.UseVisualStyleBackColor = true;
             this.btnBuscarPorId.Click += new System.EventHandler(this.btnBuscarPorId_Click);
+            // 
+            // txtBuscarPorId
+            // 
+            this.txtBuscarPorId.Location = new System.Drawing.Point(6, 19);
+            this.txtBuscarPorId.Name = "txtBuscarPorId";
+            this.txtBuscarPorId.Size = new System.Drawing.Size(100, 20);
+            this.txtBuscarPorId.TabIndex = 0;
             // 
             // bgMarcas
             // 
@@ -148,6 +148,7 @@
             this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProductos.Location = new System.Drawing.Point(26, 133);
             this.dgvProductos.Name = "dgvProductos";
+            this.dgvProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProductos.Size = new System.Drawing.Size(636, 150);
             this.dgvProductos.TabIndex = 4;
             // 
@@ -188,6 +189,7 @@
             this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // frmProductos
             // 

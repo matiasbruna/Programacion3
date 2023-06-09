@@ -1,0 +1,23 @@
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\bin\Debug\EjPacientes.exe.config
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\bin\Debug\EjPacientes.exe
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\bin\Debug\EjPacientes.pdb
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csprojAssemblyReference.cache
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.frmPrincipal.resources
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.frmSexos.resources
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.Properties.Resources.resources
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csproj.GenerateResource.cache
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csproj.CoreCompileInputs.cache
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.exe
+C:\Users\AULA HIBRIDA\source\repos\EjPacientes\EjPacientes\obj\Debug\EjPacientes.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\bin\Debug\EjPacientes.exe.config
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\bin\Debug\EjPacientes.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\bin\Debug\EjPacientes.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csproj.AssemblyReference.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.frmPrincipal.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.frmSexos.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.Properties.Resources.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.csproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\EjPacientes\EjPacientes\obj\Debug\EjPacientes.pdb

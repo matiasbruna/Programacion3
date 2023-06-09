@@ -1,0 +1,11 @@
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.csproj.AssemblyReference.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.Form1.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.Properties.Resources.resources
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.csproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.csproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\bin\Debug\PracticaParcial.exe.config
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\bin\Debug\PracticaParcial.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\bin\Debug\PracticaParcial.pdb
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.exe
+C:\Users\Mati\Desktop\Utn\Programacion3\PracticaParcial\PracticaParcial\obj\Debug\PracticaParcial.pdb
